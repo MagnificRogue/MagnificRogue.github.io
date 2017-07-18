@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title> Dustyn James Tubbs </title>
     <link rel="stylesheet" media="screen and (min-width: 500px) and (min-height:520px)" href="css/style.css"/>
     <link rel="stylesheet" media="screen and (max-width: 499px) , screen  and (max-height:519px)" href="css/small-screen.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,15 +45,6 @@
  <script>
   window.onload = function() {
     // forgive me CSS guru's, I am weak 
-
-    // expand the plates if the page wasn't cached 
-    var firstPlate = document.getElementsByClassName('plate')[0];
-    var currentOpacity = window.getComputedStyle(firstPlate, null).opacity;
-    if( currentOpacity == 0){
-        document.getElementById('check').click();
-    }
-
-
        
     //a fun secret
     var spinning = false;
@@ -85,6 +77,12 @@
 
       } 
     });
+
+
+    if (!document.getElementById('check').checked){
+        document.getElementById('check').click();
+    }
+
 
   }
 </script>
