@@ -1,0 +1,74 @@
+img.circular {
+  border-radius: 50%;
+}
+
+.title-container {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 1.25em;
+}
+
+#check { display: none; }
+
+.plate {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.35);
+}
+
+img.centered {
+  width:300px;
+  height:300px;
+  display: block;
+  margin: 0 auto;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+
+.container {
+  text-align: center; 
+  margin-left: -75px;
+}
+
+.plate i {
+  line-height: 75px;
+  color: #333;
+}
+
+.plate:hover i { color: #111; }
+
+.plate:nth-of-type(1) {
+  margin-top: 25px;
+  background-color: rgba(109, 231, 200, 0.3);
+}
+
+.plate:nth-of-type(2) {
+  margin-top:125px;
+  background-color: rgba(243, 156, 80, 0.1);
+}
+
+.plate:nth-of-type(3) {
+  margin-top:225px;
+  background-color: rgba(247, 80, 173, 0.1);
+}
+
+.plate:nth-of-type(4) {
+  margin-top:325px;
+  background-color: rgba(80, 128, 136, 0.5);
+}
+
+.plate:nth-of-type(5) {
+  margin-top:425px;
+  background-color: rgba(191, 95, 80, 0.9);
+}
+
+.plate:nth-of-type(6) {
+  margin-top:525px;
+  background-color: rgba(101, 128, 216, 0.7);
+  margin-bottom: 50px;
+}
